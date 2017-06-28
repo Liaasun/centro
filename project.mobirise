@@ -1,0 +1,796 @@
+{
+  "settings": {
+    "currentPage": "home.html",
+    "name": "My Site",
+    "theme": {
+      "name": "mobirise3",
+      "title": "Mobirise 3",
+      "styling": {
+        "primaryColor": "#c0a375",
+        "secondaryColor": "#bfcecb",
+        "successColor": "#90a878",
+        "infoColor": "#7e9b9f",
+        "warningColor": "#f3c649",
+        "dangerColor": "#efefef",
+        "titleFont": "Montserrat",
+        "subtitleFont": "Lora",
+        "textFont": "Raleway",
+        "isRoundedButtons": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": false,
+        "isRtl": false
+      }
+    },
+    "versionFirst": "3.12.1",
+    "uniqCompNum": 39,
+    "versionPublish": "3.12.1"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#d4b6b2"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e0ccc9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#e6d5d3"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#e6d5d3",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/manicure-nail-polish-beauty-care-fashion-cosmetics-365bfa4c8f997462-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"><p>SERVICIOS</p></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Manicure</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Depilacion</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Pestañas<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Limpieza facial<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Más...<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">PRODUCTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">UBICACION</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Produtos</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_afterNavbarItem": ".mbr-section > .mbr-box__magnet",
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">CLICK TO EDIT</a>"
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#acacac"
+            }
+          },
+          "_anchor": "footer1-2",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#e6d5d3",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Login"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header1",
+          "_anchor": "header1-0",
+          "_params": {
+            "parallax": true,
+            "bgImageRadio": true,
+            "showArrow": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#a07e49",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#000",
+            "contentAlign": "center",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true
+          },
+          "title": "FULL SCREEN INTRO",
+          "text": "Click any text to edit or style it. Click blue \"Gear\" icon in the top right corner to hide/show buttons, text, title and change the block background. <br> Click red \"+\" in the bottom right corner to add a new block. Use the top left menu to create new pages, sites and add extensions.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-primary\" href=\"https://mobirise.com\">DOWNLOAD FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn btn-lg btn-white btn-white-outline\" href=\"https://mobirise.com\">DOWNLOAD FOR MAC</a>"
+        }
+      ]
+    },
+    "blog.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "image1",
+          "_anchor": "image1-q",
+          "media": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/image1.jpg",
+              "width": 1400
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U"
+            }
+          },
+          "_params": {
+            "showText": true
+          },
+          "text": "Create awesome mobile-friendly websites. No coding and free."
+        },
+        {
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#acacac"
+            }
+          },
+          "_anchor": "footer1-d",
+          "_params": {
+            "paddingTop": 2,
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#e6d5d3",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Login"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#d4b6b2"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e0ccc9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#e6d5d3"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-e",
+          "_params": {
+            "bgColor": "#e6d5d3",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"><p>SERVICIOS</p></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Manicure</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Depilacion</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Pestañas<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Limpieza facial<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Más...<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">PRODUCTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">UBICACION</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Produtos</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "SPAN": {
+              "color": "#acacac",
+              "text-align": "center",
+              "font-size": "14px"
+            },
+            "P": {
+              "color": "#acacac",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "14px"
+            },
+            "B": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "contacts1-i",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#e6d5d3",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "width": 128,
+              "active": true
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\">INFORMACION</span></font><br>\n1234 Street Name<br>\nCity, AA 99999<br>",
+          "text2": "INFORMACION<br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\">INFORMACION</span></font><br>\n<a href=\"https://mobirise.com/es/\">Website builder</a><br>\n<a href=\"https://mobirise.com/es/\">Download for Windows</a><br>\n<a href=\"https://mobirise.com/es/\">Download for Mac</a>"
+        }
+      ]
+    },
+    "home.html": {
+      "settings": {
+        "title": "Web Builder Title",
+        "meta_descr": "Web Builder Description"
+      },
+      "components": [
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header2",
+          "_anchor": "header2-b",
+          "_params": {
+            "imageSize": 50,
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "@PROJECT_PATH@/assets/images/5-2000x1250.jpg",
+            "bgColor": "#2e2e2e",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.3,
+            "overlayColor": "#000",
+            "inverse": false,
+            "showTitle": true,
+            "showText": true,
+            "showButtons": true,
+            "showArrow": true
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/pdtimg-2358451hd-1400x1400.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-header2",
+              "link": "",
+              "size": 250
+            }
+          },
+          "title": "<span style=\"font-weight: normal;\">Centro de belleza para la mujer</span>",
+          "text": "Propiedad de las cosas que nos hace amarlas, infundiendo en nosotros deleite espiritual: esta obra de teatro es una belleza. Aspecto de una persona que se basa en una combinación de belleza interior y belleza exterior y se fundamenta en la opinión general.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com/es/\" data-toolbar=\"-mbrBtnMove\">Más...</a>"
+        },
+        {
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "0.75rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "0.812rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#d4b6b2"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#e0ccc9!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#e6d5d3"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#c0a375!important"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#2c2c2c"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__hamburger": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "bgColor": "#e6d5d3",
+            "fontSize": 0.75,
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": true,
+            "sticky": true,
+            "logo": true,
+            "showBrand": true,
+            "collapsed": true,
+            "hideButtons": true
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@PROJECT_PATH@/assets/images/manicure-nail-polish-beauty-care-fashion-cosmetics-365bfa4c8f997462-128x128.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\"></a>",
+          "items": "<li class=\"nav-item dropdown\"><a data-app-btn=\"true\" class=\"nav-link link dropdown-toggle\" data-toggle=\"dropdown-submenu\" href=\"https://mobirise.com/\" aria-expanded=\"false\"><p>SERVICIOS</p></a><div class=\"dropdown-menu\"><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"http://forums.mobirise.com/\">Manicure</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Depilacion</a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Pestañas<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Limpieza facial<br></a><a data-app-btn=\"true\" class=\"dropdown-item\" href=\"https://mobirise.com/\">Más...<br></a></div></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">BLOG</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">PRODUCTOS</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">UBICACION</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"https://mobirise.com/\">CONTACTO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"https://mobirise.com/\">Produtos</a></li>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "gallery2",
+          "_params": {
+            "paddingTop": "3",
+            "paddingBottom": 4,
+            "images": [
+              {
+                "tags": "Animated",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/curso-de-depilacion-mecanica-y-decoloracion-del-vello-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/curso-de-depilacion-mecanica-y-decoloracion-del-vello-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/diseos-de-uas-en-color-rosa-2000x2000-800x800.png",
+                "image": "@PROJECT_PATH@/assets/images/diseos-de-uas-en-color-rosa-2000x2000.png",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Beautiful",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/limpieza-z-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/limpieza-z-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/limpieza-facial-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/limpieza-facial-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/manicure-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/manicure-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dep-laser-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dep-laser-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/manicurefrances-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/manicurefrances-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/cara-2000x2000-800x800.jpg",
+                "image": "@PROJECT_PATH@/assets/images/cara-2000x2000.jpg",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ],
+            "spacing": "0",
+            "showText": false,
+            "filter": false,
+            "bgColor": "fff",
+            "filterBgColor": false,
+            "fullWidth": true,
+            "showBullets": true
+          },
+          "_anchor": "gallery2-6",
+          "articleLayout": false,
+          "allItem": "All"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, p": {
+              "color": "#fff"
+            },
+            "DIV": {
+              "color": "#ffffff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "content5",
+          "_anchor": "content5-7",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/5-consejos-para-estar-guapa-sin-maquillaje-2000x1333.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": "0.4",
+            "overlayColor": "#000",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "<span style=\"font-weight: normal;\">Para ti....</span>",
+          "caption": "Porque la belleza de una mujer no le pertenece solo a ella. Es parte de la riqueza que trae consigo al mundo, y su deber es compartirla."
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .mbr-section-subtitle": {
+              "text-align": "center"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "header3",
+          "_anchor": "header3-a",
+          "_params": {
+            "paddingTop": 1,
+            "paddingBottom": 1,
+            "bgColor": "#fff",
+            "showMeta": true
+          },
+          "title": "<br><span style=\"font-weight: normal;\">TEXTO EDITABLE</span>",
+          "meta": "Es un hecho establecido hace demasiado tiempo que un lector se distraerá con el contenido del texto de un sitio mientras que mira su diseño. El punto de usar Lorem Ipsum es que tiene una distribución más o menos normal de las letras, al contrario de usar textos como por ejemplo \"Contenido aquí, contenido aquí\". Estos textos hacen parecerlo un español que se puede leer.&nbsp;<br><br><br>"
+        },
+        {
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#232323"
+            },
+            ".mbr-section-title SPAN": {
+              "color": "#acacac"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons2",
+          "_anchor": "social-buttons2-v",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": true,
+            "parallax": false,
+            "bgImage": "@PROJECT_PATH@/assets/images/2040x700-espia-belleza-2000x686.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "<span style=\"font-weight: normal;\">Síguenos!</span>",
+          "icons": "<a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Twitter\" target=\"_blank\" href=\"https://twitter.com/mobirise\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-twitter\"></i></a> <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/pages/Mobirise/1616226671953247\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/mobirise/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>  <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Tumblr\" target=\"_blank\" href=\"http://mobirise.tumblr.com/\"><i class=\"socicon socicon-tumblr\"></i></a>    "
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "contacts1",
+          "_styles": {
+            "SPAN": {
+              "color": "#acacac",
+              "text-align": "center",
+              "font-size": "14px"
+            },
+            "P": {
+              "color": "#acacac",
+              "font-family": "'Montserrat', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Montserrat:400,700",
+              "font-size": "14px"
+            },
+            "B": {
+              "font-size": "16px"
+            }
+          },
+          "_anchor": "contacts1-8",
+          "_params": {
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#e6d5d3",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#3C3C3C"
+          },
+          "logo": {
+            "image": {
+              "src": "@PROJECT_PATH@/assets/images/manicure-nail-polish-beauty-care-fashion-cosmetics-365bfa4c8f997462-128x128.png",
+              "width": 128,
+              "active": true,
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-contacts1",
+              "link": "",
+              "size": 0
+            }
+          },
+          "text1": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\">INFORMACION</span></font><br>\n1234 Street Name<br>\nCity, AA 99999<br>",
+          "text2": "INFORMACION<br>\nEmail: support@mobirise.com<br>\nPhone: +1 (0) 000 0000 001<br>\nFax: +1 (0) 000 0000 002",
+          "text3": "<font color=\"#7c7c7c\" face=\"Montserrat, sans-serif\" size=\"3\"><span style=\"letter-spacing: -1px; line-height: 20px;\">INFORMACION</span></font><br>\n<a href=\"https://mobirise.com/es/\">Website builder</a><br>\n<a href=\"https://mobirise.com/es/\">Download for Windows</a><br>\n<a href=\"https://mobirise.com/es/\">Download for Mac</a>"
+        }
+      ]
+    }
+  }
+}
